@@ -1,0 +1,22 @@
+{
+  "name": "general-assembly-1",
+  "version": "1.0.0",
+  "description": "This is project 1 for my General Assembly application.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://cormaclavery@github.com/cormaclavery/general-assembly-1.git"
+  },
+  "author": "Cormac Lavery",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/cormaclavery/general-assembly-1/issues"
+  },
+  "homepage": "https://github.com/cormaclavery/general-assembly-1#readme",
+  "devDependencies": {
+    "gulp": "^3.9.0"
+  }
+}
