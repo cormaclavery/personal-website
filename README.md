@@ -1,3 +1,3 @@
 # general-assembly-1
 
-This is a project for my General Assembly application. 
+This is project 1 for my General Assembly application. 
