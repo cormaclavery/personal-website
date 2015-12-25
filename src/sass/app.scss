@@ -1,8 +1,26 @@
 body{
   background-color: #ccc;
 }
+.cl-header__navbar{
+  padding: 8px;
+  background-color: rgb(104, 159, 56);
+}
 
+.cl-header {
+  background-color: rgb(139, 195, 73);
+  padding: 64px 0px 0px 0px;
+  margin-bottom: 32px;
+}
 
+.cl-photo {
+  margin: 0 auto 24px;
+  width: 160px;
+
+  img {
+    width: 100%;
+    border-radius: 24px;
+  }
+}
 
 .cl-container{
   margin: 0 auto;
