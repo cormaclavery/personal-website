@@ -1,13 +1,31 @@
 body{
   background-color: #ccc;
 }
+
+.cl-page-title{
+  line-height: 100%;
+  font-size: 70px;
+  color: white;
+  margin: 0 auto 24px;;
+  text-align: center;
+}
+
 .cl-header__navbar{
   padding: 8px;
-  background-color: rgb(104, 159, 56);
+  //background-color: rgba(104, 159, 56, .5);
+  background-color: rgba(0,0,0, .5);
+
+  button {
+    color: white;
+
+  }
+
 }
 
 .cl-header {
-  background-color: rgb(139, 195, 73);
+  //background-color: rgb(139, 195, 73);
+  background: url("http://cdn.neonsky.com/4bd5ebf1d852d/images/inch_02-3.jpg");
+  background-size: cover;
   padding: 64px 0px 0px 0px;
   margin-bottom: 32px;
 }
@@ -25,11 +43,16 @@ body{
 .cl-container{
   margin: 0 auto;
   max-width: 800px;
+  a {
+    text-decoration: none;
+    color: white;
+  }
 }
 
 .cl-card{
     width: 100%;
     margin-bottom: 32px;
+    min-height: auto;
 }
 
 
