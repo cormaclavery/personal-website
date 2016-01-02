@@ -2,6 +2,11 @@ body{
   background-color: #ccc;
 }
 
+.cl-skype {
+  text-decoration: none;
+  color: blue;
+}
+
 .cl-page-title{
   line-height: 100%;
   font-size: 70px;
@@ -13,11 +18,15 @@ body{
 .cl-header__navbar{
   padding: 8px;
   //background-color: rgba(104, 159, 56, .5);
-  background-color: rgba(0,0,0, .5);
+  background-color: rgba(0,0,0, 1);
 
   button {
     color: white;
 
+  }
+  a {
+    text-decoration: none;
+    color: white;
   }
 
 }
@@ -43,16 +52,26 @@ body{
 .cl-container{
   margin: 0 auto;
   max-width: 800px;
-  a {
-    text-decoration: none;
-    color: white;
-  }
+  
 }
 
 .cl-card{
-    width: 100%;
-    margin-bottom: 32px;
-    min-height: auto;
+  width: 100%;
+  margin-bottom: 32px;
+  min-height: auto;
+}
+
+@media (max-width:500px){
+  .cl-page-title{
+    display: none;
+  }
+  .cl-header__navbar{
+    display: block;
+    a {
+      text-align: left;
+      display: block;
+    }
+  }
 }
 
 
