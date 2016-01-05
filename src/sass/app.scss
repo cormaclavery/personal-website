@@ -20,8 +20,10 @@ body{
 
   }
   a {
+    text-align: center;
     text-decoration: none;
     color: white;
+    min-width: auto;
   }
 
 }
@@ -48,6 +50,9 @@ body{
   margin: 0 auto;
   max-width: 800px;
   
+}
+.cl-underline{
+  text-decoration: underline;
 }
 
 .cl-card{
